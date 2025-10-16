@@ -7,3 +7,5 @@ function NavBar() {
     </nav>
   );
 }
+
+export default NavBar; //  must export so App.js can import it

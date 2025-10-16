@@ -1,4 +1,5 @@
 import React from "react";
+import { username, city } from "../data/user"; // import data variables
 
 function Home() {
   return (
@@ -9,3 +10,5 @@ function Home() {
     </div>
   );
 }
+
+export default Home; // export so App.js can use it
